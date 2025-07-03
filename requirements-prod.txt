@@ -1,0 +1,8 @@
+streamlit>=1.36.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.0.0
+# Use fastparquet as an alternative to pyarrow for better compatibility
+fastparquet>=2023.0.0
+openpyxl>=3.0.0
+# Removed pyarrow as it's not used in the code and causes build issues 
